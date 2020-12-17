@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0 ;
+    font-family: "Raleway", sans-serif;
+}
+
+header{
+ display: flex;
+ flex-direction: column ;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.4rem;
+ margin: 0 auto;
+
+}
+
+header ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    line-height: 2;
+}
+
+.logo{
+    font-weight: 800;
+    letter-spacing: 1.8rem;
+    font-size: 1.7rem;
+}
+
+.banner{
+    background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 660px;
+    width: 100%;
+}
+
+.banner h3{
+    font-size: 2.6rem;
+    color:black;
+    text-align: center;
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    top: 100px;
+    position: relative;
+    border: 2px solid turquoise;
+    border-radius: 5px;
+    padding: 15px 25px 3px 25px;
+}
+
+
+
+.content{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.content h3{
+
+    font-size: 2rem;
+    color: rgb(40, 204, 188);
+}
+
+.content .writer{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.content{
+    margin-top: 60px;
+}
+
+.content p{
+    line-height: 2rem;
+    padding-bottom: 20px;
+}
+
+.content .quote{
+    font-size: 1.7rem;
+    border-bottom: 2px solid rgb(26, 206, 206);
+    font-weight: 800;  
+}
+
+
+
+
+
+
+/* ----- footer-----  */
+footer{
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 15% 20px 15%;
+  border: 1px dotted black;
+}
+
+footer .button a{
+    background-color: thistle;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.button a:hover{
+    background-color: turquoise;
+    transition: background-color 1s;
+    cursor: pointer;
+
+}
